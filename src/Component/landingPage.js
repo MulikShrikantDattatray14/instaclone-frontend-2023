@@ -11,7 +11,8 @@ const LandingPage = ()=>{
                <img  className="container" src={image} alt="landing"/>
             </span>
             <span className="rihtPart">
-               <strong >WELCOME TO INSTACLONE</strong>
+               <strong >WELCOME TO </strong><br/>
+               <strong>INSTACLONE</strong>
                 
             </span>
             <span id="btn">
