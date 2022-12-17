@@ -4,14 +4,16 @@ import "../Styles/App.css";
 import { Link } from "react-router-dom";
 const LandingPage = ()=>{
 
-    return(<div>
+    return(
+        
+ <div>
            
-        <div>
-            <div >
+      <div  className="parent">
+              <div  className="childone">
                <img  className="container" src={image} alt="landing"/>
-            </div>
-<div>
-            <span className="rihtPart">
+              </div>
+             <div  className="childtwo">
+            <span >
                <strong >WELCOME TO </strong><br/>
                <strong>INSTACLONE</strong>
                 
@@ -20,9 +22,9 @@ const LandingPage = ()=>{
                 <Link to="/abc"> <button >Lets Go </button> </Link>
                
             </span>
-        </div>
-</div>
+           </div>
+      </div>
         <footer className="footer">Mulik Shrikant Dattatray</footer>
-    </div>)
+ </div>)
 }
 export default LandingPage;
