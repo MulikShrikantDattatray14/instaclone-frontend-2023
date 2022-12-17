@@ -21,6 +21,7 @@ useEffect(()=>{
 
         return res.json()
         }).then((data)=>{
+      data=data.reverse()
             setUserData(data);
             
         }).catch((err)=>{
