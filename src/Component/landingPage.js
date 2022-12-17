@@ -7,9 +7,10 @@ const LandingPage = ()=>{
     return(<div>
            
         <div>
-            <span >
+            <div >
                <img  className="container" src={image} alt="landing"/>
-            </span>
+            </div>
+<div>
             <span className="rihtPart">
                <strong >WELCOME TO </strong><br/>
                <strong>INSTACLONE</strong>
@@ -20,6 +21,7 @@ const LandingPage = ()=>{
                
             </span>
         </div>
+</div>
         <footer className="footer">Mulik Shrikant Dattatray</footer>
     </div>)
 }
